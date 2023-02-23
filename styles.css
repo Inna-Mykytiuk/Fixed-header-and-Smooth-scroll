@@ -1,0 +1,114 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.85;
+  overflow-x: hidden;
+  margin: 0 auto;
+  transition: 1.5s;
+} */
+
+/* body::-webkit-scrollbar {
+  appearance: none;
+  background: #000;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.63);
+  border-radius: 5px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+main {
+  margin-top: 70px;
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#scroll-btn:hover {
+  background-color: #ffd700;
+  color: #333;
+} */
