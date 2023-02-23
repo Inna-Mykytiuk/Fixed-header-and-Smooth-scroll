@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Inna-Mykytiuk.github.io/Ocean",
+  "homepage": "https://Inna-Mykytiuk.github.io/Fixed-header-and-Smooth-scroll",
   "scripts": {
     "start": "parcel src/*.html -p 3332 --open",
-    "build": "parcel build src/*.html --public-url /Ocean/"
+    "build": "parcel build src/*.html --public-url /Fixed-header-and-Smooth-scroll/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Inna-Mykytiuk/Fixed-header-and-Smooth-scroll.git"
   },
   "keywords": [],
   "author": "Inna",
