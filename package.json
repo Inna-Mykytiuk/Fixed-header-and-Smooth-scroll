@@ -1,0 +1,35 @@
+{
+  "name": "parcel-project-template",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Inna-Mykytiuk.github.io/Ocean",
+  "scripts": {
+    "start": "parcel src/*.html -p 3332 --open",
+    "build": "parcel build src/*.html --public-url /Ocean/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Inna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
+    "jquery": "^3.6.3",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.12.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

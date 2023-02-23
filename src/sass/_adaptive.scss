@@ -1,0 +1,418 @@
+@media (max-width: 1023px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .save {
+    text-align: center;
+    font-size: 80px;
+  }
+  .save span {
+    font-size: 120px;
+  }
+  .save__text {
+    max-width: 700px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .save__text1 {
+    max-width: 1200px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .hero2 {
+    height: 350px;
+  }
+
+  .organization__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .footer {
+    height: 480px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block-wrapper {
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .footer-form__input {
+    min-width: 400px;
+  }
+
+  .reviews-photo,
+  .reviews-photo1,
+  .reviews-photo2,
+  .reviews-photo3,
+  .reviews-photo4 {
+    width: 150px;
+    height: 150px;
+    top: 40px;
+  }
+
+  .reviews-item {
+    padding-left: 200px;
+  }
+  .full-screen__title {
+    text-align: center;
+    font-size: 60px;
+  }
+  .full-screen__text {
+    max-width: 350px;
+    text-align: center;
+    font-size: 26px;
+    padding: 0;
+  }
+  .ocean__item.first,
+  .ocean__item.second {
+    margin-top: 80px;
+  }
+
+  .ocean__list {
+    overflow-y: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  /* nav */
+  .header {
+    padding: 10px 0;
+  }
+  .hero2 {
+    height: 250px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color: #607b83;
+  }
+
+  .nav.active {
+    display: block;
+  }
+
+  .nav-link {
+    display: block;
+    margin: 0;
+    padding: 8px 20px;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .footer {
+    height: 120px;
+  }
+
+  .footer-form {
+    max-width: 100%;
+  }
+  .footer__inner {
+    align-items: center;
+  }
+
+  .block-wrapper {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  .footer-form__field {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-form__link {
+    margin-top: 15px;
+  }
+  .reviews-photo,
+  .reviews-photo1,
+  .reviews-photo2,
+  .reviews-photo3,
+  .reviews-photo4 {
+    display: none;
+  }
+  .reviews-item,
+  .reviews {
+    padding: 0;
+  }
+  .reviews-text {
+    font-size: 22px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .reviews-author {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .full-screen__title {
+    text-align: center;
+    font-size: 50px;
+  }
+  .full-screen__text {
+    max-width: 350px;
+    text-align: center;
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .lb-prev,
+  .lb-next {
+    width: 30px;
+    height: 30px;
+  }
+  .lb-prev {
+    left: 20px;
+  }
+  .lb-next {
+    right: 20px;
+  }
+  .lb-data .lb-close {
+    width: 30px;
+    height: 30px;
+  }
+
+  .waves-svg {
+    height: 200px;
+  }
+
+  .ocean__item.first {
+    margin-top: 80px;
+  }
+  .ocean__item.second {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+  }
+  .save {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+  }
+  .save span {
+    font-size: 90px;
+  }
+  .save__text {
+    max-width: 350px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .save__text1 {
+    width: 350px;
+  }
+
+  .lb-prev,
+  .lb-next {
+    width: 20px;
+    height: 20px;
+  }
+  .lb-prev {
+    left: 15px;
+  }
+  .lb-next {
+    right: 15px;
+  }
+  .lb-data .lb-close {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .organization__item.repeat {
+    display: block;
+  }
+
+  .footer__block {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .block-wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+
+  .footer-form {
+    margin: 0 auto;
+  }
+
+  .footer-form__input {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 380px) {
+  .section-title {
+    font-size: 20px;
+  }
+  .save {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+  }
+  .save span {
+    font-size: 70px;
+  }
+  .save__text1 {
+    width: 300px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .hero2 {
+    height: 250px;
+  }
+
+  .reviews {
+    display: none;
+  }
+  .slider {
+    display: none;
+  }
+
+  .section.gallery-m {
+    padding-bottom: 0;
+  }
+  .footer-form {
+    max-width: 90%;
+  }
+  .block-wrapper {
+    width: 90%;
+  }
+
+  .footer-form__input {
+    min-width: 300px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 896px) {
+  .gallery__link.hidden2 {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .organization__item.repeat {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__inner {
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .block-wrapper {
+    gap: 50px;
+  }
+  .footer-form__input {
+    min-width: 350px;
+  }
+  .waves-svg {
+    height: 350px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .gallery__link.hidden1 {
+    display: block;
+  }
+}
+
+@media (min-width: 1920px) {
+  .gallery__link.hidden1,
+  .gallery__link.hidden2 {
+    display: none;
+  }
+}
+@media (min-width: 2304px) {
+  .gallery__link.hidden1,
+  .gallery__link.hidden2 {
+    display: block;
+  }
+}
+@media (min-width: 2560px) {
+  .gallery__link.hidden1,
+  .gallery__link.hidden2,
+  .gallery__link.hidden3 {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .gallery__link.hidden1 {
+    display: block;
+  }
+}
+@media (min-width: 1600px) {
+  .ocean__list {
+    overflow-y: hidden;
+  }
+}
+
+@media (max-height: 540px) {
+  .save {
+    max-width: 350px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .save span {
+    font-size: 70px;
+  }
+  .save__text1 {
+    width: 300px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 821px) and (max-width: 822px) {
+  .ocean__item.first,
+  .ocean__item.second {
+    margin-top: 0;
+  }
+}
