@@ -1,21 +1,3 @@
-// const navHeight = document.querySelector("nav").offsetHeight;
-
-// // Attach a click event listener to each nav link
-// document.querySelectorAll("nav a").forEach((link) => {
-//   link.addEventListener("click", (event) => {
-//     event.preventDefault(); // Prevent the default link behavior
-
-//     // Get the target section from the link href
-//     const target = document.querySelector(link.getAttribute("href"));
-
-//     // Calculate the target position, subtracting the nav height
-//     const position = target.offsetTop - navHeight;
-
-//     // Scroll to the target section with the margin top
-//     window.scrollTo({ top: position, behavior: "smooth" });
-//   });
-// });
-
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector("#header");
   const intro = document.querySelector("#intro");
