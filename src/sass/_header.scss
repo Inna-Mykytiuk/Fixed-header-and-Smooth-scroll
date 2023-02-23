@@ -1,7 +1,3 @@
-.section--intro {
-  padding: 0;
-}
-
 .hero1 {
   width: 100%;
   height: 100vh;
@@ -154,9 +150,6 @@
   backdrop-filter: blur(10px);
   background-color: rgba(0, 70, 110, 0.3);
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 
 .header.active {
