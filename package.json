@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://Inna-Mykytiuk.github.io/Fixed-header-and-Smooth-scroll",
   "scripts": {
-    "start": "parcel src/*.html -p 3332 --open",
+    "start": "parcel src/*.html -p 3331 --open",
     "build": "parcel build src/*.html --public-url /Fixed-header-and-Smooth-scroll/"
   },
   "repository": {
